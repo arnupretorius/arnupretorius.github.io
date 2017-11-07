@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Arnu Pretorius - blog</title>
+		<description>Thoughts on learning</description>
+		<link>http://localhost:9001</link>
+		<atom:link href="http://localhost:9001/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>- How computers learn - &lt;br/&gt; Part 2: Noise and the normal distribution</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Mon, 06 Nov 2017 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/noise-and-the-normal-distribution</link>
+				<guid isPermaLink="true">http://localhost:9001/noise-and-the-normal-distribution</guid>
+			</item>
+		
+			<item>
+				<title>- How computers learn - &lt;br/&gt; Part 1: Linear relationships</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 04 Nov 2017 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/linear-relationships</link>
+				<guid isPermaLink="true">http://localhost:9001/linear-relationships</guid>
+			</item>
+		
+	</channel>
+</rss>
