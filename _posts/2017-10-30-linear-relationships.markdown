@@ -2,7 +2,6 @@
 layout: post
 title:  "- How computers learn - <br/> Part 1: Linear relationships"
 date:   2017-11-04 01:00:00
-excerpt: ""
 categories: Statistics
 image:
   feature: linear.jpeg

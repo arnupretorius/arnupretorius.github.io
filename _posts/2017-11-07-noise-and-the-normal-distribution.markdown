@@ -2,8 +2,6 @@
 layout: post
 title:  "- How computers learn - <br/> Part 2: Noise and the normal distribution"
 date:   2017-11-06 01:00:00
-last_modified_at:  2017-11-06 01:00:00
-excerpt: ""
 categories: Statistics
 image:
   feature: fall-autumn-red-season.jpg
