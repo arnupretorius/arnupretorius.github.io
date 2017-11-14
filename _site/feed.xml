@@ -7,6 +7,20 @@
 		<atom:link href="http://localhost:9001/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>- How computers learn - &lt;br/&gt; Part 3: The additive error model</title>
+				
+				
+					<description>&lt;p align=&quot;justify&quot;&gt;
+
+&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 06 Nov 2017 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/additive-error-model</link>
+				<guid isPermaLink="true">http://localhost:9001/additive-error-model</guid>
+			</item>
+		
+			<item>
 				<title>- How computers learn - &lt;br/&gt; Part 2: Noise and the normal distribution</title>
 				
 				
@@ -24,7 +38,11 @@
 				<title>- How computers learn - &lt;br/&gt; Part 1: Linear relationships</title>
 				
 				
-					<description>What is this exactly?</description>
+					<description>&lt;p align=&quot;justify&quot;&gt;
+In this series of blog posts I want to explore how computers can learn. 
+&lt;/p&gt;
+
+</description>
 				
 				<pubDate>Sat, 04 Nov 2017 01:00:00 +0000</pubDate>
 				<link>http://localhost:9001/linear-relationships</link>
