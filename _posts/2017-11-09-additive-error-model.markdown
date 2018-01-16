@@ -36,7 +36,7 @@ syntaxHighlighter: language-python
 	<div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_posts_img }}noise.gif);"></div>
 </center>
 
-{% highlight python %}
+```python
 # required imports
 import numpy as np
 
@@ -44,6 +44,6 @@ import numpy as np
 def normal_distribution(x, mu, sigma):
     p_x = (1/np.sqrt(2*np.pi*sigma**2))*np.exp((-(x - mu)**2)/(2*sigma**2))
     return p_x
-{% endhighlight %}
+```
 
 
