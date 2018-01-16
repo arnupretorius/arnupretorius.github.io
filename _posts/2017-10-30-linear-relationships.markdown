@@ -21,6 +21,8 @@ $$y = 2x$$
 where $y$ is the variable output of growth in centimetres given the input $x$, <i>i.e.</i> the number of cups of water. This relationship is linear, in other words the more water we give the more growth we get <i>ad infinitum</i> (which I guess is fairly unrealistic, but lets work with this for now). 
 </p>
 
+<br>
+
 ```python
 # import required modules
 import numpy as np
@@ -35,6 +37,8 @@ y = 2*x
 Here we have expressed $y$ as a function of $x$, which we typically write as $y = f(x)$. For watermelons $f(x) = 2x$, but for potatoes $f$ could perhaps be entirely different, such as $3x/4$. To distinguish the two, we could define a new function $g$ for potatoes, such that $g(x) = 3x/4$.
 
 </p>
+
+<br>
 
 ```python
 # import required modules

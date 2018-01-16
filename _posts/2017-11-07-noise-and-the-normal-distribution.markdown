@@ -58,6 +58,8 @@ The normal distribution is defined as
 where the parameters $\mu$ and $\sigma^2$ characterise the shape of the distribution. 
 </p>
 
+<br>
+
 ```python
 # required imports
 import numpy as np
@@ -73,6 +75,8 @@ def normal_distribution(x, mu, sigma):
 The parameter $\mu$ is the mean of the distribution and specifies the location of the peak (the most probable observation), whereas $\sigma^2$ is responsible for how often and to what extent observations vary from the mean. We usually write $x \sim \mathcal{N}(\mu, \sigma^2)$ to indicate that a random variable $x$ is distributed according to a normal distribution with mean $\mu$ and variance $\sigma^2$. The quantity $\sigma$ is referred as the standard deviation (you can play around with the standard deviation to change the shape of the distribution above).
 
 </p>
+
+<br>
 
 ```python
 # required imports
