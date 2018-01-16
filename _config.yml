@@ -13,7 +13,7 @@ name:				         Arnu Pretorius - blog
 title:               Arnu Pretorius - blog
 tagline:             'tagline'
 description:         'Thoughts on learning'
-url:                 'https://arnupretorius.github.io'
+url:                 'https://arnupretorius.github.io/'
 rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
