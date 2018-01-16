@@ -69,11 +69,11 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
   
-    <link rel="stylesheet" href="assets/css/prism-okaidia.css">
-    <link rel="stylesheet" href="assets/css/prism-line-numbers.css">
+    <link rel="stylesheet" href="/assets/css/prism-okaidia.css">
+    <link rel="stylesheet" href="/assets/css/prism-line-numbers.css">
   
 
   <!-- Fonts -->
@@ -82,8 +82,8 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
@@ -130,7 +130,7 @@
     
       <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
       <nav role="navigation" class="sidebar sidebar--right">
-  <a href=""><font color="white">Posts</font></a>
+  <a href="/"><font color="white">Posts</font></a>
   <ul class="sidebar-recentPosts">
     
       
@@ -167,7 +167,7 @@
       <nav class="menuWrapper">
   <ul class="popover popover--menu">
     <li class="menu-avatar">
-      <a href="" class="brandLogo brandLogo--small
+      <a href="/" class="brandLogo brandLogo--small
       
       ">Posts</a>
       <ul class="list list--avatarMenu hidden">
@@ -233,12 +233,14 @@ $$y = 2x$$
 where $y$ is the variable output of growth in centimetres given the input $x$, <i>i.e.</i> the number of cups of water. This relationship is linear, in other words the more water we give the more growth we get <i>ad infinitum</i> (which I guess is fairly unrealistic, but lets work with this for now). 
 </p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># import required modules</span>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c"># import required modules</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 
 <span class="c"># generate data with relationship y = 2x</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span></code></pre></figure>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span>
+</code></pre>
+</div>
 
 <p align="justify">
 
@@ -246,7 +248,7 @@ Here we have expressed $y$ as a function of $x$, which we typically write as $y 
 
 </p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># import required modules</span>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c"># import required modules</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
 
 <span class="c"># define function for potatoes</span>
@@ -258,7 +260,9 @@ Here we have expressed $y$ as a function of $x$, which we typically write as $y 
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Growth (cm / per day)'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Water (cups)'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre>
+</div>
 
 <div class="img img--fullContainer img--16xLeading" style="background-image: url(/assets/images/posts/watermelonsPlot.png);"></div>
 
@@ -348,7 +352,7 @@ A python notebook version of this post can be found <a href="https://github.com/
   <div class="container container--content">
     <h3 class="u-alignCenter">Get in touch</h3>
     <p align="center">
-      Hi, I'm <a href="about/"><strong>Arnu Pretorius</strong></a>, please feel free to get in touch. 
+      Hi, I'm <a href="/about/"><strong>Arnu Pretorius</strong></a>, please feel free to get in touch. 
     </p>
     <p align="center">
     arnupretorius-at-gmail.com
@@ -379,7 +383,7 @@ A python notebook version of this post can be found <a href="https://github.com/
     <footer class="section--footer">
   <div class="container container--content">
     <!-- <div>
-      <a href="humans.txt">Hand-crafted</a> by <a href="about/">Arnu Pretorius</a>
+      <a href="/humans.txt">Hand-crafted</a> by <a href="/about/">Arnu Pretorius</a>
     </div> -->
     <ul class="socialAccountList">
       <li><a href="http://twitter.com/arnupretorius" class="socialAccount socialAccount--twitter" target="_blank"></a></li>

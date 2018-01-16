@@ -69,11 +69,11 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
   
-    <link rel="stylesheet" href="assets/css/prism-okaidia.css">
-    <link rel="stylesheet" href="assets/css/prism-line-numbers.css">
+    <link rel="stylesheet" href="/assets/css/prism-okaidia.css">
+    <link rel="stylesheet" href="/assets/css/prism-line-numbers.css">
   
 
   <!-- Fonts -->
@@ -82,8 +82,8 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
@@ -130,7 +130,7 @@
     
       <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
       <nav role="navigation" class="sidebar sidebar--right">
-  <a href=""><font color="white">Posts</font></a>
+  <a href="/"><font color="white">Posts</font></a>
   <ul class="sidebar-recentPosts">
     
       
@@ -167,7 +167,7 @@
       <nav class="menuWrapper">
   <ul class="popover popover--menu">
     <li class="menu-avatar">
-      <a href="" class="brandLogo brandLogo--small
+      <a href="/" class="brandLogo brandLogo--small
       
       ">Posts</a>
       <ul class="list list--avatarMenu hidden">
@@ -223,18 +223,13 @@
       <div class="content-body">
         <p align="justify">
 
-
-
 </p>
 
 <p align="justify">
 
-
-
 </p>
 
 <p align="justify">
-
 
 </p>
 
@@ -251,6 +246,16 @@
 <center>
 	<div class="img img--fullContainer img--16xLeading" style="background-image: url(/assets/images/posts/noise.gif);"></div>
 </center>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c"># required imports</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+
+<span class="c"># normal probability distribution function</span>
+<span class="k">def</span> <span class="nf">normal_distribution</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">):</span>
+    <span class="n">p_x</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">((</span><span class="o">-</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mu</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">p_x</span>
+</code></pre>
+</div>
 
 
       </div>
@@ -299,7 +304,7 @@
   <div class="container container--content">
     <h3 class="u-alignCenter">Get in touch</h3>
     <p align="center">
-      Hi, I'm <a href="about/"><strong>Arnu Pretorius</strong></a>, please feel free to get in touch. 
+      Hi, I'm <a href="/about/"><strong>Arnu Pretorius</strong></a>, please feel free to get in touch. 
     </p>
     <p align="center">
     arnupretorius-at-gmail.com
@@ -330,7 +335,7 @@
     <footer class="section--footer">
   <div class="container container--content">
     <!-- <div>
-      <a href="humans.txt">Hand-crafted</a> by <a href="about/">Arnu Pretorius</a>
+      <a href="/humans.txt">Hand-crafted</a> by <a href="/about/">Arnu Pretorius</a>
     </div> -->
     <ul class="socialAccountList">
       <li><a href="http://twitter.com/arnupretorius" class="socialAccount socialAccount--twitter" target="_blank"></a></li>

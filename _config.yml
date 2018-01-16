@@ -13,7 +13,7 @@ name:				         Arnu Pretorius - blog
 title:               Arnu Pretorius - blog
 tagline:             'tagline'
 description:         'Thoughts on learning'
-url:                 https://arnupretorius.github.io
+url:                 '/' #https://arnupretorius.github.io
 rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
@@ -25,7 +25,7 @@ icon:                your site icon path # /assets/img/icon.png [best 300px X 30
 
 author:
   name:           	 Arnu Pretorius
-  url:            	 your site url
+#  url:            	 your site url
 #  facebook:          username
   twitter:           arnupretorius
 #  google_plus:       username
