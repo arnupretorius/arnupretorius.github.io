@@ -9,7 +9,7 @@ image:
 syntaxHighlighter: language-python
 ---
 
-# This is a header
+## This is a smaller header
 
 <p align='justify'>
 
