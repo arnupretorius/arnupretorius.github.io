@@ -58,7 +58,7 @@ The normal distribution is defined as
 where the parameters $\mu$ and $\sigma^2$ characterise the shape of the distribution. 
 </p>
 
-{% highlight python %}
+```python
 # required imports
 import numpy as np
 
@@ -66,7 +66,7 @@ import numpy as np
 def normal_distribution(x, mu, sigma):
     p_x = (1/np.sqrt(2*np.pi*sigma**2))*np.exp((-(x - mu)**2)/(2*sigma**2))
     return p_x
-{% endhighlight %}
+```
 
 <p align="justify">
 
@@ -74,7 +74,7 @@ The parameter $\mu$ is the mean of the distribution and specifies the location o
 
 </p>
 
-{% highlight python %}
+```python
 # required imports
 import plotly.plotly as py
 from plotly.graph_objs import *
@@ -118,7 +118,7 @@ sliders = [dict(
 layout = dict(sliders=sliders, xaxis={'title':'x'}, yaxis={'title':'p(x)'})
 fig = dict(data=data, layout=layout)
 py.iplot(fig, filename = 'normal-dist')
-{% endhighlight %}
+```
 
 <p align="justify">
 	

@@ -21,14 +21,14 @@ $$y = 2x$$
 where $y$ is the variable output of growth in centimetres given the input $x$, <i>i.e.</i> the number of cups of water. This relationship is linear, in other words the more water we give the more growth we get <i>ad infinitum</i> (which I guess is fairly unrealistic, but lets work with this for now). 
 </p>
 
-{% highlight python %}
+```python
 # import required modules
 import numpy as np
 
 # generate data with relationship y = 2x
 x = np.arange(0, 10, 1)
 y = 2*x
-{% endhighlight %}
+```
 
 <p align="justify">
 
@@ -36,7 +36,7 @@ Here we have expressed $y$ as a function of $x$, which we typically write as $y 
 
 </p>
 
-{% highlight python %}
+```python
 # import required modules
 import matplotlib.pyplot as plt
 
@@ -50,7 +50,7 @@ plt.ylabel('Growth (cm / per day)')
 plt.xlabel('Water (cups)')
 plt.legend()
 plt.show()
-{% endhighlight %}
+```
 
 <div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_posts_img }}watermelonsPlot.png);"></div>
 
