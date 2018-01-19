@@ -21,7 +21,6 @@ $$y = 2x$$
 where $y$ is the variable output of growth in centimetres given the input $x$, <i>i.e.</i> the number of cups of water. This relationship is linear, in other words the more water we give the more growth we get <i>ad infinitum</i> (which I guess is fairly unrealistic, but lets work with this for now). 
 </p>
 
-<br>
 
 ```python
 # import required modules
@@ -38,7 +37,6 @@ Here we have expressed $y$ as a function of $x$, which we typically write as $y 
 
 </p>
 
-<br>
 
 ```python
 # import required modules

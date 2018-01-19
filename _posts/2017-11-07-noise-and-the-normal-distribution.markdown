@@ -58,7 +58,6 @@ The normal distribution is defined as
 where the parameters $\mu$ and $\sigma^2$ characterise the shape of the distribution. 
 </p>
 
-<br>
 
 ```python
 # required imports
@@ -76,7 +75,6 @@ The parameter $\mu$ is the mean of the distribution and specifies the location o
 
 </p>
 
-<br>
 
 ```python
 # required imports
