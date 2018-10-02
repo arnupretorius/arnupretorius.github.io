@@ -1,51 +1,116 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: Arnu Pretorius
+email: arnupretorius@gmail.com
+description: > # this means to ignore newlines until "url:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-# Syntax highlighting
-markdown: Kramdown
-highlighter: rouge
+url:  # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
 
-# Permalinks
-permalink:           /:title
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: # your GitHub user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: # your ORCID ID
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
 
-# Setup
-timezone:            your timezone # eg. Asia/Kathmandu
-locale:              your locale language # eg. en_us
-name:				         Arnu Pretorius - blog
-title:               Arnu Pretorius - blog
-tagline:             'tagline'
-description:         'Thoughts on learning'
-#url:                 ''
-rss:                 rss feed url
-baseurl:             '/'
-baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
-baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts: '/assets/javascripts/'
-icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
-# disqus:              disqus_shortname # get it on https://disqus.com/admin/
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
-author:
-  name:           	 Arnu Pretorius
-#  url:            	 your site url
-#  facebook:          username
-  twitter:           arnupretorius
-#  google_plus:       username
-  linkedin:          arnupretorius
-#  dribbble:          username
-#  pinterest:         username
-#  kiva:              username
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: al-folio
+blog_description: a simple whitespace theme for academics
 
-# fb_admins:           your facebook profile id
-# fb_appid:            your facebook app id
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
-# Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
 
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "default"
+# Comments
+disqus_shortname: al-folio # put your disqus shortname
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_limit: 20
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Includes & excludes
+include: ['_pages']
+exclude: [vendor]
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
+
+# Jekyll-Scholar
+scholar:
+
+  last_name: Pretorius
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.9.0"
+anchorjs_version: "3.2.2"
