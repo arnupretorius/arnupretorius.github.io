@@ -1,6 +1,5 @@
 
 # latex
-assets/cv/fonts 
 *.aux
 *.fdb_latexmk
 *.fls
@@ -8,4 +7,3 @@ assets/cv/fonts
 *.out
 *.synctex.gz
 *.xdv
-*.cls
