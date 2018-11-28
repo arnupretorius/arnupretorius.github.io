@@ -1,0 +1,306 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%!TEX program = xelatex
+
+\documentclass[]{deedy-resume-openfont}
+\begin{document}
+
+\namesection{Arnu}{Pretorius}{} \\
+\href{mailto:arnupretorius@gmail.com}{arnupretorius@gmail.com}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Stellenbosch University}
+\descript{PhD in Computer Science}
+\location{Apr 2017 - Present}
+\sectionsep
+
+\descript{MComm in Mathematical Statistics}
+\location{Jan 2015 - Dec 2016 | Cum laude}
+\sectionsep
+
+
+\descript{BComm (Hons) Mathematical Statistics}
+\location{Jan 2014 - Dec 2014 | Cum laude}
+\sectionsep
+
+\descript{BComm Mathematical Sciences}
+\location{Jan 2011 - Dec 2013 }
+\sectionsep
+
+%\subsection{La Martiniere for Boys}
+%\location{Grad. May 2011|  Kolkata, India}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Website://  \href{https://arnupretorius.github.io/}{\custombold{arnupretorius}} \\
+Github:// \href{https://github.com/arnupretorius}{\custombold{arnupretorius}} \\
+LinkedIn://  \href{https://za.linkedin.com/in/arnupretorius}{\custombold{arnupretorius}} \\
+
+%YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
+%Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
+%Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotesize
+\section{Certifications}
+\subsection{Coursera}
+\descript{Stanford University}
+Machine Learning \\
+\descript{University of Washington}
+Machine Learning Foundations: A Case Study Approach \\
+\descript{Johns Hopkins University}
+Data Science Specialization \\
+Executive Data Science \\
+%The Data Scientist's Toolbox \\ 
+%R Programming \\ 
+%Getting and Cleaning Data \\ 
+%Exploratory Data Analysis \\ 
+%Reproducible Research \\ 
+%Statistical Inference \\ 
+%Regression Models \\ 
+%Practical Machine Learning \\
+%A Crash Course in Data Science \\ 
+%Building a Data Science Team \\ 
+%Managing Data Analysis \\ 
+%Data Science in Real Life \\
+\descript{Univ. of California, San Diego}
+Learning how to learn \\
+Introduction to Big Data \\ 
+Hadoop Platform and Application Framework \\ 
+Introduction to Big Data Analytics \\
+\descript{The Hong Kong University of Science and Technology}
+HTML, CSS and JavaScript \\ 
+Front-End UI Frameworks and Tools
+\sectionsep
+
+\subsection{EdX}
+\descript{Univ. of California, Berkeley}
+Intro to Big Data with Apache Spark \\
+Scalable Machine Learning
+\sectionsep
+
+\normalsize
+\section{Projects}
+\sectionsep
+South African crime data visualisation and analysis web app. \href{https://arnupretorius.shinyapps.io/SACrimeDataAnalyserWebApp/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BtTn34xJBSvmObeMkK9GuIA%3D%3D}{\custombold{[link]}} \\
+Statistical Learning Theory: Notes and R programming examples. \href{https://drive.google.com/open?id=1pQ5OofM7zZL7mLXVQi09tck3vUZwb9nD}{\custombold{[link]}}
+
+%\subsection{Trinity College London}
+%Grade 6 theory of music with merit \\
+%Grade 8 guitar with merit
+%\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Skills}
+%\subsection{Programming}
+%\location{Over 5000 lines:}
+%Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
+%OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+%\location{Over 1000 lines:}
+%C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+%\location{Familiar:}
+%AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Deep Learning IndabaX Western Cape}
+\descript{| Organiser }
+\location{Jan 2018 – April 2018 | Activities: }
+\vspace{\topsep}
+\begin{tightemize}
+\item I helped to organise the Deep Learning IndabaX held at UCT. \href{https://indabax.github.io/}{\custombold{[link]}}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Praelexis}
+\descript{| Intern}
+\location{Jan 2017 – Mar 2017 | Activities: }
+%\vspace{\topsep}
+\begin{tightemize}
+\item My project involved developing an approach to learn profile attribute embeddings using neural networks. \href{http://praelexis.com/attribute-embedding-using-neural-networks/}{\custombold{[link]}}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Domino Data Labs}
+\descript{| Freelance writer }
+\location{Jan 2015 – Dec 2016 | Posts:}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item Reproducible research in computational sciences. \href{https://blog.dominodatalab.com/reproducible-research-using-domino/}{\custombold{[link]}} 
+    \item Predicting winners of the rugby world cup. \href{https://blog.dominodatalab.com/predicting-winners-of-the-rugby-world-cup/}{\custombold{[link]}}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Zenaptix Big Data lab}
+\descript{| Intern}
+\location{Sep 2014 – Nov 2014 | Activities: }
+%\vspace{\topsep}
+\begin{tightemize}
+\item I was part of a young team working on a project implementing scalable machine learning algorithms to classify auto-mobile driver behaviour. 
+\end{tightemize}
+\sectionsep
+
+%\runsubsection{Stellenbosch University}
+%\descript{| Teacher assistant }
+%\location{June 2014 – Jan 2016 | Modules:}
+%\begin{tightemize}
+%	\item Stochastic processes
+%	\item Stochastic simulation
+%\end{tightemize}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Publications}
+\descript{}
+%\location{Jan 2014 – Present | Ithaca, NY}
+%Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+\begin{tightemize}
+\item Pretorius, Van Biljon, Kroon, Kamper. \customitalics{Critical Initialisation and Deep Signal Propagation for Noisy Rectifier Neural Networks}. In Neural Information Processing Systems (NeurIPS), 2018. \href{https://arxiv.org/pdf/1811.00293.pdf}{\custombold{[link]}}
+\item Pretorius, Kroon, Kamper. \customitalics{Learning Dynamics of Linear Denoising Autoencoders}. In Proceedings of the 35th International Conference on Machine Learning (ICML), 2018. \href{https://arxiv.org/pdf/1806.05413.pdf}{\custombold{[link]}}
+\item Pretorius, Bierman, Steel. \customitalics{A Meta-Analysis of Research in Random Forests for Classification}. In the Proceedings of the Annual Conference of the Pattern Recognition Association of South Africa (PRASA), 2016. \href{http://ieeexplore.ieee.org/abstract/document/7813171/?reload=true&lipi=urn:li:page:d_flagship3_profile_view_base;I751iNLxTn%2BqB3Q6oh5vBQ%3D%3D}{\custombold{[link]}}
+\item Pretorius, Bierman, Steel. \customitalics{A Bias-Variance Analysis of Ensemble Learning for Classification}. In the Proceedings of the Annual Conference of the South African Statistical Association (SASA), 2016. \href{https://journals.co.za/content/sasj_proc/2016/con-1/EJC198852?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BI751iNLxTn%2BqB3Q6oh5vBQ%3D%3D#abstract_content}{\custombold{[link]}}
+\item Pretorius, Parry. \customitalics{Human Decision Making and Artificial Intelligence: A Comparison in the Domain of Sports Prediction}. In Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists (SAICSIT), 2016. \href{https://dl.acm.org/citation.cfm?id=2987493&lipi=urn%253Ali%253Apage%253Ad_flagship3_profile_view_base%253BI751iNLxTn%252BqB3Q6oh5vBQ%253D%253D}{\custombold{[link]}}
+\end{tightemize}
+\sectionsep
+
+%\runsubsection{Presentations}
+%\descript{}
+%\begin{tightemize}
+%\item Predicting the future of the 2015 Rugby World Cup using Random Forests.
+%The talk was presented in both the ``young statisticians'' and ``statistics in sport'' streams of the 2015 South African Statistical Association (SASA) conference at the University of Pretoria, South Africa.
+%\end{tightemize}
+%\sectionsep
+
+\runsubsection{Theses}
+\descript{}
+\begin{tightemize} 
+\item Boosting: exploiting the wisdom of crowds \href{https://drive.google.com/file/d/0B8NUUh-M5neobnJ4STR5Z09VTW8/view?usp=sharing}{\custombold{[link]}}.
+\item Advances in Random Forests with Application to Classification \href{https://drive.google.com/file/d/1cpVDxKqjpdR_6IbzviLw-PZh6HkVZwpn/view?usp=sharing}{\custombold{[link]}}.
+\end{tightemize}
+\sectionsep
+
+% \runsubsection{Posters}
+% \descript{}
+% \begin{tightemize}
+% \item Pretorius, Kroon. \customitalics{Learning Dynamics of Regularised Linear Neural Networks}. Deep Learning Indaba, 2017.
+% \end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2018		& Google travel and conference grant for ICML.\\
+2017		& Centre for Artificial Intelligence Research (CAIR) PhD bursary.\\
+2015	    & MIH (internet division of Naspers) media lab bursary.\\
+2015	    & NRF masters innovation bursary.\\
+2015	    & Stellenbosch Postgraduate merit bursary.\\
+2014     	& Golden Key international honours society membership invitation. \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Societies} 
+
+%\begin{tabular}{rll}
+%2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+%2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+%2012   &  National  & Golden Key International Honor Society\\
+%2012   &  National   & National Society of Collegiate Scholars\\
+%\end{tabular}
+%\sectionsep
+
+\end{minipage} 
+\end{document}
