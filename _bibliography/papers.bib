@@ -4,8 +4,11 @@
 @article{pretoriusnoisy,
   title={Critical initialisation and deep signal propagation for noisy rectifier neural networks},
   author={Pretorius, A. and Van Biljon, E. and Kroon, S. and Kamper, H.},
-  journal={To appear in the Proceedings of the 32nd Conference on Neural Information Processing Systems (NIPS),},
+  journal={In Advances of the 32nd Conference on Neural Information Processing Systems (NeurIPS),},
   year={2018},
+  abstract={Stochastic regularisation is an important weapon in the arsenal of a deep learning practitioner. However, despite recent theoretical advances, our understanding of how noise influences signal propagation in deep neural networks remains limited. By extending recent work based on mean field theory, we develop a new framework for signal propagation in stochastic regularised neural networks. Our noisy signal propagation theory can incorporate several common noise distributions, including additive and multiplicative Gaussian noise as well as dropout. We use this framework to investigate initialisation strategies for noisy ReLU networks. We show that no critical initialisation strategy exists using additive noise, with signal propagation exploding regardless of the selected noise distribution. For multiplicative noise (e.g. dropout), we identify alternative critical initialisation strategies that depend on the second moment of the noise distribution. Simulations and experiments on real-world data confirm that our proposed initialisation is able to stably propagate signals in deep networks, while using an initialisation disregarding noise fails to do so. Furthermore, we analyse correlation dynamics between inputs. Stronger noise regularisation is shown to reduce the depth to which discriminatory information about the inputs to a noisy ReLU network is able to propagate, even when initialised at criticality. We support our theoretical predictions for these trainable depths with simulations, as well as with experiments on MNIST and CIFAR-10},
+  arxiv={1811.00293},
+  code={https://github.com/ElanVB/noisy_signal_prop},
 }
 
 @article{pretoriuslindyn,

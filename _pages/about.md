@@ -6,7 +6,7 @@ description: <a href="http://www.cs.sun.ac.za/">PhD student in Computer Science 
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: Arnu.png
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>

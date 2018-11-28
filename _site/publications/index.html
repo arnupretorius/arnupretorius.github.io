@@ -10,10 +10,10 @@
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
-  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico">
 
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/publications/">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/publications/">
 </head>
 
 
@@ -44,10 +44,10 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="/">about</a>
+        <a class="page-link" href="http://localhost:4000/">about</a>
 
         <!-- Blog -->
-        <!-- <a class="page-link" href="/blog/">blog</a> -->
+        <!-- <a class="page-link" href="http://localhost:4000/blog/">blog</a> -->
 
         <!-- Pages -->
         
@@ -58,11 +58,11 @@
           
         
           
-            <a class="page-link" href="/projects/">projects</a>
+            <a class="page-link" href="http://localhost:4000/projects/">projects</a>
           
         
           
-            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="http://localhost:4000/publications/">publications</a>
           
         
           
@@ -71,7 +71,7 @@
         
 
         <!-- CV link -->
-        <a class="page-link" href="/assets/pdf/cv.pdf">cv</a>
+        <a class="page-link" href="http://localhost:4000/assets/pdf/cv.pdf">cv</a>
 
       </div>
     </nav>
@@ -136,7 +136,7 @@
 
     <span class="periodical">
     
-      <em>To appear in the Proceedings of the 32nd Conference on Neural Information Processing Systems (NIPS),</em>
+      <em>In Advances of the 32nd Conference on Neural Information Processing Systems (NeurIPS),</em>
     
     
       2018
@@ -146,16 +146,26 @@
 
   <span class="links">
   
+    [<a class="abstract">Abstract</a>]
+  
+  
+    [<a href="http://arxiv.org/abs/1811.00293" target="_blank">arXiv</a>]
   
   
   
   
   
   
+  
+    [<a href="https://github.com/ElanVB/noisy_signal_prop" target="_blank">Code</a>]
   
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Stochastic regularisation is an important weapon in the arsenal of a deep learning practitioner. However, despite recent theoretical advances, our understanding of how noise influences signal propagation in deep neural networks remains limited. By extending recent work based on mean field theory, we develop a new framework for signal propagation in stochastic regularised neural networks. Our noisy signal propagation theory can incorporate several common noise distributions, including additive and multiplicative Gaussian noise as well as dropout. We use this framework to investigate initialisation strategies for noisy ReLU networks. We show that no critical initialisation strategy exists using additive noise, with signal propagation exploding regardless of the selected noise distribution. For multiplicative noise (e.g. dropout), we identify alternative critical initialisation strategies that depend on the second moment of the noise distribution. Simulations and experiments on real-world data confirm that our proposed initialisation is able to stably propagate signals in deep networks, while using an initialisation disregarding noise fails to do so. Furthermore, we analyse correlation dynamics between inputs. Stronger noise regularisation is shown to reduce the depth to which discriminatory information about the inputs to a noisy ReLU network is able to propagate, even when initialised at criticality. We support our theoretical predictions for these trainable depths with simulations, as well as with experiments on MNIST and CIFAR-10</p>
+  </span>
   
 </div>
 </li>
@@ -457,20 +467,20 @@ Computer Scientists and Information Technologists (SAICSIT),</em>
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
+<script src="http://localhost:4000/assets/js/common.js"></script>
 
 
 <!-- Load KaTeX -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
-<script src="/assets/js/katex.js"></script>
+<script src="http://localhost:4000/assets/js/katex.js"></script>
 
 
 
 
 <!-- Include custom icon fonts -->
-<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="/assets/css/academicons.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.min.css">
 
 <!-- Google Analytics -->
 <script>
